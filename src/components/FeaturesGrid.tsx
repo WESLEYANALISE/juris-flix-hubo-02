@@ -216,7 +216,7 @@ export const FeaturesGrid = () => {
                         {/* Gradient background effect */}
                         <div className="absolute inset-0 bg-gradient-to-br from-red-professional/5 to-red-professional/10 group-hover:from-red-professional/10 group-hover:to-red-professional/20 transition-all duration-500 rounded-lg" />
                         
-                        <div className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 rounded-xl bg-red-professional/15 border border-red-professional/30 flex items-center justify-center group-hover:scale-110 group-hover:bg-red-professional/25 group-hover:border-red-professional/50 transition-all duration-500 relative shadow-lg">
+                        <div className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 rounded-xl bg-red-professional/15 border border-red-professional/30 flex items-center justify-center group-hover:scale-110 group-hover:bg-red-professional/25 group-hover:border-red-professional/50 transition-all duration-500 relative shadow-deep shadow-red-glow group-hover:shadow-interactive">
                           <Icon className="h-6 w-6 sm:h-8 sm:w-8 text-red-professional transition-colors duration-300 icon-hover-bounce icon-float-gentle" />
                           
                           {/* Professional hover arrow */}

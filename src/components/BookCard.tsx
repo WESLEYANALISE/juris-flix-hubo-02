@@ -43,7 +43,7 @@ export const BookCard = ({ book, areaColor, getProfessionLogo, showAreaBadge = f
         className="cursor-pointer"
         onClick={handleCardClick}
       >
-        <Card className="h-full hover:shadow-lg transition-all duration-300 border-l-4 overflow-hidden" 
+        <Card className="h-full shadow-professional hover:shadow-deep hover:shadow-red-glow transition-all duration-300 border-l-4 overflow-hidden" 
               style={{ borderLeftColor: areaColor }}>
           <CardContent className="p-4">
             <div className="flex gap-4 h-full">

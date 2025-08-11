@@ -120,7 +120,7 @@ export const FeaturesCarousel = () => {
 
   return (
     <div 
-      className="relative h-[200px] sm:h-[240px] w-full overflow-hidden rounded-2xl shadow-legal card-depth-3" 
+      className="relative h-[200px] sm:h-[240px] w-full overflow-hidden rounded-2xl shadow-deep shadow-red-glow hover:shadow-interactive transition-all duration-500" 
       onMouseEnter={() => setIsAutoPlaying(false)} 
       onMouseLeave={() => setIsAutoPlaying(true)}
     >

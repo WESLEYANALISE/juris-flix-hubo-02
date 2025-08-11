@@ -55,8 +55,8 @@ export const QuickAccessSection = () => {
             onClick={() => handleItemClick(item)} 
             style={{ animationDelay: `${index * 100}ms` }}
           >
-            {/* Círculo compacto com ícone */}
-            <div className="w-12 h-12 mx-auto mb-2 rounded-full border-2 border-red-professional/30 bg-red-professional/15 flex items-center justify-center transition-all duration-300 group-hover:border-red-professional/50 group-hover:bg-red-professional/25 shadow-lg">
+            {/* Círculo compacto com ícone - Sombras Profissionais */}
+            <div className="w-12 h-12 mx-auto mb-2 rounded-full border-2 border-red-professional/30 bg-red-professional/15 flex items-center justify-center transition-all duration-300 group-hover:border-red-professional/50 group-hover:bg-red-professional/25 shadow-deep shadow-red-glow group-hover:shadow-interactive">
               <item.icon className="w-5 h-5 text-red-professional icon-hover-bounce" />
             </div>
             

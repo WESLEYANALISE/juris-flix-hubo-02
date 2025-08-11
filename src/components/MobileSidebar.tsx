@@ -166,8 +166,8 @@ export const MobileSidebar = ({ isOpen, onClose }: MobileSidebarProps) => {
                       transitionDelay: isOpen ? `${(index + 1) * 75}ms` : '0ms'
                     }}
                   >
-                    <div className="p-2 rounded-lg bg-muted/50 group-hover:bg-primary/15 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 relative overflow-hidden">
-                      <Icon className="h-5 w-5 group-hover:animate-pulse relative z-10" />
+                    <div className="p-2 rounded-lg bg-red-professional/15 border border-red-professional/30 group-hover:bg-red-professional/25 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 relative overflow-hidden shadow-professional group-hover:shadow-red-glow">
+                      <Icon className="h-5 w-5 text-red-professional group-hover:animate-pulse relative z-10" />
                       {/* Sparkle effect */}
                       <div className="absolute top-0 right-0 w-1 h-1 bg-amber-400 rounded-full opacity-0 group-hover:opacity-100 animate-ping transition-opacity duration-500" />
                     </div>

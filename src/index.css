@@ -345,6 +345,43 @@
   background-clip: text;
 }
 
+/* Professional Shadow System - Enhanced Depth */
+.shadow-professional {
+  box-shadow: 
+    0 4px 20px hsl(var(--background) / 0.1),
+    0 8px 40px hsl(var(--primary) / 0.08),
+    0 2px 8px hsl(var(--border) / 0.15);
+}
+
+.shadow-deep {
+  box-shadow: 
+    0 8px 32px hsl(var(--background) / 0.2),
+    0 16px 64px hsl(var(--primary) / 0.12),
+    0 4px 16px hsl(var(--border) / 0.2),
+    inset 0 1px 2px hsl(var(--foreground) / 0.05);
+}
+
+.shadow-red-glow {
+  box-shadow: 
+    0 4px 20px hsl(var(--red-professional) / 0.15),
+    0 8px 40px hsl(var(--red-professional) / 0.1),
+    0 2px 8px hsl(var(--red-background) / 0.08);
+}
+
+.shadow-interactive {
+  box-shadow: 
+    0 2px 12px hsl(var(--background) / 0.08),
+    0 4px 24px hsl(var(--primary) / 0.06);
+  transition: box-shadow 0.3s ease;
+}
+
+.shadow-interactive:hover {
+  box-shadow: 
+    0 8px 32px hsl(var(--red-professional) / 0.2),
+    0 16px 64px hsl(var(--red-professional) / 0.15),
+    0 4px 16px hsl(var(--red-background) / 0.1);
+}
+
 /* Professional Red Icon System */
 .icon-red {
   color: hsl(var(--red-professional));
